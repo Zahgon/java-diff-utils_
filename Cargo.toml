@@ -1,0 +1,14 @@
+[package]
+name = "diffutils"
+version = "4.18.0"
+edition = "2024"
+description = "Myers diffs, unified and multi-file git diffs, strict, fuzzy and conflict-marking patch application, and side-by-side diff rows over lists of lines."
+license = "Apache-2.0"
+repository = "https://github.com/java-diff-utils/java-diff-utils"
+publish = false
+
+[lib]
+name = "diffutils"
+path = "src/lib.rs"
+
+[dependencies]
